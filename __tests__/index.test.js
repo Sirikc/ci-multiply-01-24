@@ -1,5 +1,6 @@
-import {multiply} from "/index.js";
+import {degree} from "/index.js";
 
-test("multiply", ()=>{
-    expect(multiply(4, 4)).toEqual(16);
+test("degree", ()=>{
+    expect(degree(4, 4)).toEqual(1);
+    expect(degree(4, 0)).toEqual("infinit");
 })

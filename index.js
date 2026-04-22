@@ -1,3 +1,6 @@
-export const multiply = (a, b)=>{
-    return a * b;
+export const degree = (a, b)=>{
+    if (b === 0) {
+        return "infinit";
+    }
+    return a / b;
 }
